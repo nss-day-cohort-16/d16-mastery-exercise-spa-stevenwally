@@ -1,0 +1,25 @@
+{
+	"cars": [
+		{
+		"make": "Nissan",
+		"model": "Rogue",
+		"year": "2006",
+		"price": "8999",
+		"description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
+		}
+		{
+		"make": "Zonda",
+		"model": "T-RB",
+		"year": "1993",
+		"price": "750",
+		"description": "You haven't truly driven a car until you've been behind the wheel of a Zonda T-RB!"
+		}
+		{
+		"make": "Toy-Yoda",
+		"model": "Sabre",
+		"year": "2020",
+		"price": "1150",
+		"description": "The force is strong with this one! Cruise like a *Jedi* master in your new Toy-Yoda!"
+		}
+	]
+}
