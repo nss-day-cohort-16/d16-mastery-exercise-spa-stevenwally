@@ -1,19 +1,23 @@
+"use strict";
+
 var CarLot = (function (oldCarLot) {
   var inventory = [];
 
   return {
-    oldCarLot.loadInventory: function (callback) {
+    loadInventory: function (callback) {
       var inventoryLoader = new XMLHttpRequest();
       inventoryLoader.open("GET", "inventory.json");
       inventoryLoader.send();
 
       inventoryLoader.addEventListener("load", function () {
-          var inventoryArray = JSON.parse(event.target.responseText);
-          callback(inventoryArray.inventory);
+          inventory = JSON.parse(event.target.responseText).cars;
+          callback(inventory);
       });
+    },
+
+    getInventory: function() {
+      return inventory;
     }
   };
-
-  return oldCarLot;
 
 })(CarLot || {});

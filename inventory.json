@@ -1,25 +1,58 @@
 {
 	"cars": [
 		{
-		"make": "Nissan",
-		"model": "Rogue",
+		"id": 0,
+		"make": "Mario",
+		"model": "Sneakster",
+		"image": "http://www.mariowiki.com/images/8/8e/Sneakster-Mario.png",
 		"year": "2006",
-		"price": "8999",
-		"description": "This is an immaculate 2006 Nissan Rogue with only 25000 miles on it. Leather seats, power everything."
-		}
+		"price": "8,999",
+		"description": "The Sneakster (known as Nitrocycle in the PAL region) is a medium-sized bike in Mario Kart Wii. It looks similar to a stretched-out old Harley. The character's emblem is located at the very back of the bike. It can be unlocked by getting at least a one-star rank on all 100cc Wii Grand Prix cups. Its kart counterpart is the Sprinter."
+		},
 		{
-		"make": "Zonda",
-		"model": "T-RB",
+		"id": 1,
+		"make": "Yoshi",
+		"model": "Sugarscoot",
+		"image": "http://www.mariowiki.com/images/2/2c/Sugarscoot-Yoshi.png",
 		"year": "1993",
 		"price": "750",
-		"description": "You haven't truly driven a car until you've been behind the wheel of a Zonda T-RB!"
-		}
+		"description": "The Sugarscoot (known as the Bon Bon in the PAL regions) is a medium-sized bike that appears in Mario Kart Wii. As the NTSC name suggests, the Sugarscoot resembles a motorized scooter. The PAL name, 'Bon Bon', means candy or a type of chocolates in some countries. There is a four-point star shape at the front of the bike and has a spare tire on the back."
+		},
 		{
-		"make": "Toy-Yoda",
-		"model": "Sabre",
+		"id": 2,
+		"make": "Toad",
+		"model": "Mini-Beast",
+		"image": "http://www.mariowiki.com/images/a/ac/MiniBeast-Toad.png",
+		"year": "2016",
+		"price": "10,500",
+		"description": "The Mini Beast (known as the Concerto in PAL regions) is a small-sized kart in the game Mario Kart Wii. It looks somewhat like an American hot rod by having an engine blower and supercharger. The character's emblem is engraved in the license plate holder at the back of the kart."
+		},
+		{
+		"id": 3,
+		"make": "Wario",
+		"model": "Jetsetter",
+		"image": "http://www.mariowiki.com/images/thumb/c/c0/Jetsetter-Wario.png/250px-Jetsetter-Wario.png",
+		"year": "1636",
+		"price": "250",
+		"description": "The Jetsetter (also known as the Aero Glider in PAL regions) is a large kart that appears in Mario Kart Wii. The Jetsetter resembles a Le Mans Prototype racecar and the body has a similar design to the Streamliner, but has more of a rectangular shape as opposed to the Streamliner's wedge-shaped body."
+		},
+		{
+		"id": 4,
+		"make": "King Boo",
+		"model": "Honeycoupe",
+		"image": "http://www.mariowiki.com/images/7/72/Honeycoupe-KingBoo.png",
 		"year": "2020",
-		"price": "1150",
-		"description": "The force is strong with this one! Cruise like a *Jedi* master in your new Toy-Yoda!"
+		"price": "1,150",
+		"description": "The Honeycoupe (also known as the Dragonetti in the PAL regions) is a large-sized kart that appears in Mario Kart Wii. The character's emblem appears only on a tiny license plate located at the back of the kart between the exhaust pipes. The vehicle resembles a Porsche 911 or a flattened Volkswagen Beetle."
+		},
+		{
+		"id": 5,
+		"make": "Baby Luigi",
+		"model": "Quacker",
+		"image": "http://www.mariowiki.com/images/3/3d/Quacker-BabyLuigi.png",
+		"year": "1999",
+		"price": "15.45",
+		"description": "The Quacker is a small bike that appears in Mario Kart Wii. The vehicle is in the shape of a duck toy with exhaust pipes that resemble duck wings."
 		}
 	]
 }

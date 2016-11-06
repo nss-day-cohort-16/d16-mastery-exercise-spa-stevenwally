@@ -1,0 +1,33 @@
+$primaryColor: #F2F2F2;
+$secondaryColor: #048ABF;
+$compColor: #AEDFF2;
+$bgChange: #C5DDDE;
+$borderColor: #08327D;
+
+body {
+	background-color: $primaryColor;
+}
+
+.nav-bg-color {
+	background-color: $secondaryColor;
+}
+
+.card {
+	background-color: $compColor;
+	border: 1px solid black;
+	margin: 1.5em 3em;
+}
+
+.card-change {
+	border: 3px solid $borderColor;
+}
+
+.info,
+.price {
+	margin-top: 0em;
+	padding-top: 0em;
+}
+
+img {
+	width: 35%;
+}
