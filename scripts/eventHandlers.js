@@ -36,7 +36,7 @@ var CarLot = (function(oldCarLot) {
 					var newText = document.getElementsByClassName("card-change");
 				if (e.keyCode === 13) {
 					userInput.value = "";
-					CarLot.removeClass(inventory[i]);
+					carClick();
 				} else if (inventory[i].classList.contains("card-change")) {
 					newText[0].childNodes[4].innerHTML = userInput.value;
 				}
