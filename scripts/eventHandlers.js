@@ -16,7 +16,6 @@ var CarLot = (function(oldCarLot) {
 		// DOM-RELATED FUNCTIONS
 
 		function carClick () {
-			console.log(event.currentTarget);
 			for (var i = 0; i < inventory.length; i++) {
 				var cardPick = inventory[i];
 				color = "#AEDFF2";
