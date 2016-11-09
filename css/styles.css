@@ -1,0 +1,23 @@
+body {
+  background-color: #F2F2F2; }
+
+.nav-bg-color {
+  background-color: #048ABF; }
+
+.card {
+  background-color: #AEDFF2;
+  border: 1px solid black;
+  margin: 1.5em 3em; }
+
+.card-change {
+  border: 3px solid #08327D; }
+
+.info,
+.price {
+  margin-top: 0em;
+  padding-top: 0em; }
+
+img {
+  width: 35%; }
+
+/*# sourceMappingURL=styles.css.map */
